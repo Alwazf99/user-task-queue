@@ -50,7 +50,7 @@ A Node.js API that handles user task processing with **rate limiting** and **Red
 
 ## API Usage
 
-# POST /task
+### POST /task
 
 Submit a task for a user. If the rate limit is exceeded, the task is queued.
 
