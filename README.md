@@ -50,7 +50,7 @@ A Node.js API that handles user task processing with **rate limiting** and **Red
 
 ## API Usage
 
-## POST /task
+# POST /task
 
 Submit a task for a user. If the rate limit is exceeded, the task is queued.
 
@@ -60,8 +60,8 @@ Submit a task for a user. If the rate limit is exceeded, the task is queued.
 {
     "user_id": "123"
 }
-
-* Responses:
+````
+- Responses:
 - 200 OK: Task processed immediately.
 - 202 Accepted: Task queued.
 
@@ -74,4 +74,5 @@ Submit a task for a user. If the rate limit is exceeded, the task is queued.
 {
     "user_id":"123"
 }
-````
+```
+
